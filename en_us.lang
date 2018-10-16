@@ -125,6 +125,13 @@ item.fortified_glass_shard.name=Fortified Glass Shard
 
 item.cache_compass.name=Seeker Amulet
 
+item.shade_rose_bush_seed.name=Shade Rose Bush Seed
+item.shade_rose_seed.name=Shade Rose Seed
+item.shade_petal.name=Shade Rose Petal
+item.light_rose_bush_seed.name=Light Rose Bush Seed
+item.light_rose_seed.name=Light Rose Seed
+item.light_petal.name=Light Rose Petal
+
 //Blocks
 
 tile.block_shade.name=Shaded Metal Block
@@ -173,6 +180,11 @@ tile.terra_focus.ice_plains.name=Focus (Ice Plains)
 tile.terra_focus.forest.name=Focus (Forest)
 tile.terra_focus.swampland.name=Focus (Swamp)
 tile.terra_focus.savanna.name=Focus (Savanna)
+
+tile.shade_rose_bush.name=Shade Rose Bush
+tile.shade_rose.name=Shade Rose
+tile.light_rose_bush.name=Light Rose Bush
+tile.light_rose.name=Light Rose Bush
 
 //enchantments
 
@@ -258,6 +270,13 @@ research.TG_TERRAMORFER.title=Terramorfer
 research.TG_TERRAMORFER.stage.1=In your wanderings, you have met many different biomes: forest, savanna, tundra, desert, swamps and many other. You came up with the idea of creating a terramorfer that would allow you to change the biome to the one you want...
 research.TG_TERRAMORFER.stage.2=It was not easy, but you could create it. The taumic terramorfer. Its principle of operation is very simple: Install the terraformer in the right place, install a special focus on it, which is responsible for selecting the biome and feeding the essence. Terramorfer will gradually change the surrounding area. The range of terramorfer is 16 blocks. Depending on the installed focus, the terramorfer needs different essences. <BR>Тaiga: Gelum<BR>Desert: Ignis<BR>Nether: Potentia<BR>Jungle: Herba<BR>Mushroom Island: Praecantatio<BR>Plains: Terra<BR>Ice Plains: Gelum<BR>Forest: Herba<BR>Swamp: Aqua<BR>Savanna: Bestia
 
+research.TG_ALCHEMY.title=Alchemy
+research.TG_ALCHEMY.stage.1=After the successful development of a terramorfer, you got the idea of a little fun with alchemy. What will come of it?
+research.TG_ALCHEMY.stage.2=And it turned out much more than you thought. A pair of simple experiments and you can easily learn how to turn one matter into another! But does it have side effects?
+research.TG_ALCHEMY.shade=Adding a little Tenebrae it dawned on you that the darkness is also material. And it is quite useful.
+research.TG_ALCHEMY.light=Adding a little Lux dawned on you that the light is also material. And even quite useful.
+
+
 research.TG_AGEING_STONE.title=Ageing Stone
 research.TG_AGEING_STONE.stage.1=Sometimes, sitting for hours at the fireplace with a hot mug of tea, you wondered what time is, and whether it is possible to manage it locally. And one of these evenings, it seems, you have found a solution...
 research.TG_AGEING_STONE.stage.2=Ageing stone. Now you do not have to wait long for the animal to grow. This block will accelerate the growth of animals in the 7x7x5 zone. And no side effects... It seems...
@@ -325,9 +344,9 @@ research.TG_JEWELLERY.stage.2=Definitely, the result is interesting. But for a s
 research.TG_JEWELLERY.stage.3=After experimenting with stones a little more, you invented another type of cut - oval cut. These stones can be used many times. After use, they will need time to recover. Effects of this cut are different from acute:<PAGE><LINE>§lOval Cut§r<BR>Perditio - Increases the level of infection of aura by 50 units; Ordo - Heals 5 health points; Terra - Adds "10 golden hearts" for 5 minutes; Aqua - Creates a block of clean water; Ignis - Light a fire on the block; Aer - Provides underwater breathing for 3 minutes.<PAGE><LINE>§lSharp Cut§r<BR>Perditio - Gives a "Deadly Look" for 3 minutes; Ordo - Removes negative effects; Terra - Gives "Resistance to Damage"; Aqua - Freezes water into ice and turns lava into obsidian in the 5x5x5 area; Ignis - gives "Fire resistance" for 5 min; Aer - Gives "Speed 2" and "Jumping 2" for 3 minutes.<PAGE><IMG>tg:textures/gui/research/recipe_cutting_table.png:0:0:195:149:1</IMG>
 
 research.TG_LENSES.title=Lenses
-research.TG_LENSES.stage.1=PlaceHolder1
-research.TG_LENSES.stage.2=PlaceHolder2
-research.TG_LENSES.stage.3=PlaceHolder3
+research.TG_LENSES.stage.1=Once, turning the thaumometer in your hands, you caught yourself thinking that it would be nice to reduce it and insert it in glasses instead of glasses or... Or as an additional lens. What if you try to fill the glass with aspects like you did with stones?
+research.TG_LENSES.stage.2=The result was curious. Ordinary glass is not suitable for filling aspects. You had to create a special lens capable of absorbing the essence, while being quite miniature. Filling an empty lens with the original aspects in a gemcutter table gives it certain permanent effects: Aqua provides the ability to look through the water as if it were not there. Ignis allows you to see the night as well as during the day, but unfortunately it does not work in the water. Perditio will give your eyesight the effect of "death gaze." And despite such a success, you understand that this is not the limit of possibilities ...
+research.TG_LENSES.stage.3=Experiments with the filing of the same essence on the lens did not lead to anything. Already in despair, you accidentally missed, submitting the opposite. And suddenly the effect of the lens has changed. Ignis lens and aer essence - Gives night vision and fire resistance, and also sets fire to the creatures who came close. Empty lense and aer essence - knockback creatures that you looks at. Perditio lens and ordo essence - imposes on creatures that the magician looks at "wither", "Slow 2" and "Weakness 2".
 
 research.TG_RINGS.title=Rings
 research.TG_RINGS.stage.1=Placeholder start research
@@ -336,6 +355,10 @@ research.TG_RINGS.stage.2=Placeholde finish research
 research.TG_RING_ASPECT.title=Aspect Ring
 research.TG_RING_ASPECT.stage.1=Placeholder start research
 research.TG_RING_ASPECT.stage.2=Placeholde finish research
+
+research.TG_COMPASS.title=Seeker Amulet
+research.TG_COMPASS.stage.1=A normal compass points to the north. Ender Eye - to the nearest portal in the End. And this amulet? Seeker Amulet... Where is he pulling you?
+research.TG_COMPASS.stage.2=After some research, you find that the amulet only works in Nezer. And he points... To the lava lakes. Or that is hidden under them.
 
 research.TG_DECHANT.title=Dechantment Table
 research.TG_DECHANT.stage.1=In your wanderings on the Nether, you accidentally found a strange building under the lava lake - some ancient vault. Inside is a strange sarcophagus, surrounded by statues of beings that you have never seen. But when you tried to open it... It was not easy, but you uncovered the sarcophagus. Inside the table was a concept... no, not an enchantment. Something ancient that you can not understand right away... You need to do some research...
@@ -433,3 +456,15 @@ research.tg:DRAGON_EGG.text=Scan Dragon Egg
 research.tg:ENDERMAN.text=Scan Enderman
 research.tg:ENDER_PEARL.text=Scan Ender Pearl
 research.tg:CRIMSON_PORTAL.text=Scan Crimson Portal
+research.tg:THAUMOMETR.text=Scan Thaumometr
+research.tg:GLASS.text=Scan Glass Block
+research.tg:GEMCUTTER.text=Scan Gemcutter Table
+research.tg:GOGGLES.text=Scan Goggles of Revealing
+research.tg:LENSE_ECHO_LOC.text=Scan Echo Loc Lense
+research.tg:LENSE_NIGHT_VISION.text=Scan Night Vision Lense
+research.tg:DEATH_GAZE.text=Scan Death Gaze Lense
+research.tg:COMPASS.text=Scan Compass
+research.tg:MAP.text=Scan Empty Map
+research.tg:END_PORTAL.text=Scan End Portal
+research.tg:NETHER_PORTAL.text=Scan Nether Portal
+research.tg:ENDER_EYE.text=Scan Ender Eye
